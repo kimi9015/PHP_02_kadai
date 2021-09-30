@@ -1,0 +1,346 @@
+.cp_iptxt {
+	position: relative;
+	width: 80%;
+	margin: 40px 3%;
+}
+.cp_iptxt input[type='text'] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	letter-spacing: 1px;
+	padding-left: 4em;
+}
+.cp_iptxt input[type='text']:focus {
+	outline: none;
+}
+.ef {
+	padding: 7px 14px;
+	transition: 0.4s;
+	border: 1px solid #1b2538;
+	background: transparent;
+}
+.ef ~ .focus_line:before,
+.ef ~ .focus_line:after {
+	position: absolute;
+	top: -1px;
+	left: 50%;
+	width: 0;
+	height: 2px;
+	content: '';
+	transition: 0.4s;
+	background-color: #da3c41;
+}
+.ef ~ .focus_line:after {
+	top: auto;
+	bottom: 0;
+}
+.ef ~ .focus_line i:before,
+.ef ~ .focus_line i:after {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 2px;
+	height: 0;
+	content: '';
+	transition: 0.6s;
+	background-color: #da3c41;
+}
+.ef ~ .focus_line i:after {
+	right: 0;
+	left: auto;
+}
+.ef:focus ~ .focus_line:before,
+.ef:focus ~ .focus_line:after,
+.cp_iptxt.ef ~ .focus_line:before,
+.cp_iptxt.ef ~ .focus_line:after {
+	left: 0;
+	width: 100%;
+	transition: 0.4s;
+}
+.ef:focus ~ .focus_line i:before,
+.ef:focus ~ .focus_line i:after,
+.cp_iptxt.ef ~ .focus_line i:before,
+.cp_iptxt.ef ~ .focus_line i:after {
+	top: -1px;
+	height: 100%;
+	transition: 0.6s;
+}
+.ef ~ label {
+	position: absolute;
+	z-index: -1;
+	top: 10px;
+	left: 14px;
+	width: 100%;
+	transition: 0.3s;
+	letter-spacing: 0.5px;
+	color: #aaaaaa;
+}
+.ef:focus ~ label,
+.cp_iptxt.ef ~ label {
+	font-size: 12px;
+	top: -18px;
+	left: 0;
+	transition: 0.3s;
+	color: #da3c41;
+}
+
+
+
+
+.cp_iptxt2 {
+	position: relative;
+	width: 80%;
+	margin: 40px 3%;
+}
+.cp_iptxt2 input[type='text'] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	letter-spacing: 1px;
+	padding-left: 4em;
+}
+.cp_iptxt2 input[type='text']:focus {
+	outline: none;
+}
+.ef2 {
+	padding: 7px 14px;
+	transition: 0.4s;
+	border: 1px solid #1b2538;
+	background: transparent;
+}
+.ef2 ~ .focus_line2:before,
+.ef2 ~ .focus_line2:after {
+	position: absolute;
+	top: -1px;
+	left: 50%;
+	width: 0;
+	height: 2px;
+	content: '';
+	transition: 0.4s;
+	background-color: #da3c41;
+}
+.ef2 ~ .focus_line2:after {
+	top: auto;
+	bottom: 0;
+}
+.ef2 ~ .focus_line2 i:before,
+.ef2 ~ .focus_line2 i:after {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 2px;
+	height: 0;
+	content: '';
+	transition: 0.6s;
+	background-color: #da3c41;
+}
+.ef2 ~ .focus_line2 i:after {
+	right: 0;
+	left: auto;
+}
+.ef2:focus ~ .focus_line2:before,
+.ef2:focus ~ .focus_line2after,
+.cp_iptxt2.ef2 ~ .focus_line2:before,
+.cp_iptxt2.ef2 ~ .focus_line2:after {
+	left: 0;
+	width: 100%;
+	transition: 0.4s;
+}
+.ef2:focus ~ .focus_line2 i:before,
+.ef2:focus ~ .focus_line2 i:after,
+.cp_iptxt2.ef2 ~ .focus_line2 i:before,
+.cp_iptxt2.ef2 ~ .focus_line2 i:after {
+	top: -1px;
+	height: 100%;
+	transition: 0.6s;
+}
+.ef2 ~ label {
+	position: absolute;
+	z-index: -1;
+	top: 10px;
+	left: 14px;
+	width: 100%;
+	transition: 0.3s;
+	letter-spacing: 0.5px;
+	color: #aaaaaa;
+}
+.ef2:focus ~ label,
+.cp_iptxt2.ef2 ~ label {
+	font-size: 12px;
+	top: -18px;
+	left: 0;
+	transition: 0.3s;
+	color: #da3c41;
+}
+
+h2 {
+    position: relative;
+    padding: 0.6em;
+    background: -webkit-repeating-linear-gradient(-45deg, #fff5df, #fff5df 4px,#ffe4b1 3px, #ffe4b1 8px);
+    background: repeating-linear-gradient(-45deg, #fff5df, #fff5df 4px,#ffe4b1 3px, #ffe4b1 8px);
+    border-radius: 7px;
+    width: 50%;
+}
+
+h2:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 30px;
+    border: 15px solid transparent;
+    border-top: 15px solid #ffebbe;
+    width: 0;
+    height: 0;
+  }
+
+  .selectWrap{
+    width: 10%;
+    position: relative;
+    display: inline-block;
+  }
+  .selectWrap::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border: 0px;
+    border-bottom: solid 2px #b4b3b3;
+    border-right: solid 2px #b4b3b3;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -4px;
+  }
+  .select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    position: relative;
+    z-index: 1;
+    padding: 0 40px 0 10px;
+    border: 1px solid #b4b3b3;
+    border-radius: 2px;
+  }
+  select::-ms-expand {
+      display: none;
+  }
+
+
+
+
+
+.cp_iptxt3 {
+	position: relative;
+	width: 80%;
+	margin: 40px 3%;
+}
+.cp_iptxt3 input[type='text'] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	letter-spacing: 1px;
+	padding-left: 4em;
+}
+.cp_iptxt3 input[type='text']:focus {
+	outline: none;
+}
+.ef3 {
+	padding: 7px 14px;
+	transition: 0.4s;
+	border: 1px solid #1b2538;
+	background: transparent;
+}
+.ef3 ~ .focus_line3:before,
+.ef3 ~ .focus_line3:after {
+	position: absolute;
+	top: -1px;
+	left: 50%;
+	width: 0;
+	height: 2px;
+	content: '';
+	transition: 0.4s;
+	background-color: #da3c41;
+}
+.ef3 ~ .focus_line3:after {
+	top: auto;
+	bottom: 0;
+}
+.ef3 ~ .focus_line3 i:before,
+.ef3 ~ .focus_line3 i:after {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 2px;
+	height: 0;
+	content: '';
+	transition: 0.6s;
+	background-color: #da3c41;
+}
+.ef3 ~ .focus_line3 i:after {
+	right: 0;
+	left: auto;
+}
+.ef3:focus ~ .focus_line3:before,
+.ef3:focus ~ .focus_line3:after,
+.cp_iptxt3.ef3 ~ .focus_line3:before,
+.cp_iptxt3.ef3 ~ .focus_line3:after {
+	left: 0;
+	width: 100%;
+	transition: 0.4s;
+}
+.ef3:focus ~ .focus_line3 i:before,
+.ef3:focus ~ .focus_line3 i:after,
+.cp_iptxt.ef ~ .focus_line3 i:before,
+.cp_iptxt.ef ~ .focus_line3 i:after {
+	top: -1px;
+	height: 100%;
+	transition: 0.6s;
+}
+.ef3 ~ label {
+	position: absolute;
+	z-index: -1;
+	top: 10px;
+	left: 14px;
+	width: 100%;
+	transition: 0.3s;
+	letter-spacing: 0.5px;
+	color: #aaaaaa;
+}
+.ef3:focus ~ label,
+.cp_iptxt3.ef3 ~ label {
+	font-size: 12px;
+	top: -18px;
+	left: 0;
+	transition: 0.3s;
+	color: #da3c41;
+}
+
+
+.button02{
+    display:block;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 250px;
+    height:70px;
+    line-height: 70px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    background-color: blue; /*ボタン色*/
+    border-radius: 5px; /*角丸*/
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.button02:hover{
+    background-color: #f9c500; /*ボタン色*/
+}
+
+
+.ichiran {
+    margin-top: 100px;
+}
